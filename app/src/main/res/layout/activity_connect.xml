@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.farrellmochammad.jarkomlan.ConnectActivity"
+    android:background="@drawable/babyedit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+
+        <EditText
+            android:id="@+id/IP"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Your IoT Device IP"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/buttonConnect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/IP"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/iotstyle"
+            android:text="CONNECT" />
+    </RelativeLayout>
+
+</ScrollView>
